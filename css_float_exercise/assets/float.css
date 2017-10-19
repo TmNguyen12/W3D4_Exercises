@@ -24,6 +24,11 @@ ul li a, figcaption a {
 of the header element */
 header > img {
   width: 100px;
+  float: left;
+}
+
+figure > img {
+  width: 100%; 
 }
 
 /* Selects all elements with the class attribute "ingredients-list" */
@@ -73,7 +78,8 @@ h2 + .user_review {
 }
 
 nav {
-    display: inline-block;
+    /*display: inline-block;*/
+    float: right;
 }
 
 nav ul li {
@@ -97,9 +103,8 @@ section {
 }
 
 aside {
-    width: 180px;
-    margin-right: 15px;
-    display: inline-block;
+
+    /*display: inline-block;*/
 }
 
 .ingredients-list li {
@@ -123,4 +128,3 @@ textarea {
 label {
   display: block;
 }
-
